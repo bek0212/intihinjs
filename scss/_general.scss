@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+.h1__general {
+  font-size: 7rem;
+  font-family: monospace;
+  font-weight: 500;
+  text-align: center;
+  margin: 20px auto;
+  z-index: 2;
+}
+
+.container {
+  width: 2100px;
+  height: 1800px;
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transform: scaleX(-0.5);
+  transition: all ease 0.8s;
+  .fatherblock__left {
+    width: 800px;
+    height: 100%;
+  }
+  .fatherblock__center {
+    width: 5px;
+    border-radius: 5px;
+    height: 100%;
+    border: 6px ridge black;
+  }
+  .fatherblock__right {
+    width: 800px;
+    height: 100%;
+  }
+  animation-name: anim;
+  animation-duration: 5s;
+  animation-iteration-count:inherit;
+  animation-iteration-count: 1;
+  animation-direction: alternate-reverse;
+}
+.container:hover{
+  transition: all ease 0.8s;
+  transform: scale(1);
+}
+
+.none1 {
+  display: none;
+}
+
+.loling {
+  list-style-type: none;
+  font-size: 3rem;
+  margin: 10px 30px;
+}
+.size {
+  list-style-type: none;
+  font-size: 3rem;
+  margin: 15px 30px;
+}
+.size1 {
+  list-style-type: none;
+  font-size: 3rem;
+  margin: 15px 30px;
+}
+.nonee {
+  display: none;
+}
+@keyframes anim {
+    0%{
+        transform: rotate(1000deg);
+        background-color: chocolate;
+    }
+    50%{
+        transform: rotateX(1000deg);
+        background-color: red;
+    }
+    70%{
+        transform: rotateY(1000deg);
+        background-color: aqua;
+    }
+    70%{
+        transform: rotate(50rem);
+        background-color: rgb(112, 124, 124);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+.select{
+    animation-name: anim2;
+    animation-delay: 6s;
+    animation-duration: 2s;
+    animation-iteration-count: var('.select');
+    animation-direction: alternate;
+}
+@keyframes anim2{
+    10%{
+        transform: rotate3d(100deg);
+    }
+    50%{
+        transform-origin: 10%;
+    }
+    90%{
+        transform: scale(1.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+
+
+
+.block__box__item1{
+    animation-name: activ;
+    animation-duration: 3s;
+    animation-delay: 8s;
+}
+@keyframes activ {
+    50%{
+        transform: translateY(100deg);
+    }
+    100%{
+        transform: translateY(100deg);
+    }
+}
+//////////////////////////////////////////////////
+
+.general__btn{
+  animation-name: animate;
+  animation-delay: 10s;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes animate {
+  50%{
+    background: linear-gradient(110deg, rgb(88, 21, 21), rgb(53, 48, 48));
+  }
+  100%{
+    background: linear-gradient(110deg, rgb(3, 151, 23), rgb(100, 228, 95), red);
+  }
+}
+//////////////////////////////////////////////////////////////
+
+.container{
+  background: none;
+  backdrop-filter: blur(15px);
+ 
+}
+
+  .shaytoncha{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+    transition: all ease 0.8s;
+    animation-name: xxx;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    animation-duration: 50s;
+    left: 1500px;
+    top: 900px;
+  }
+  .shaytoncha:hover{
+    transform: scale(1.5);
+    transition: all ease 0.8s;
+  }
+  .shaytoncha:active{
+    transform: scale(2);
+    border-radius: 100%;
+    box-shadow: 10px 10px black;
+  }
+@keyframes xxx{
+  10%{
+    top: 300px;
+    left: 400px;
+    background: linear-gradient(110deg, red, rgb(235, 66, 66));
+  }
+  20%{
+    top: 1500px;
+    left: 600px;
+    background: linear-gradient(110deg, rgb(94, 26, 26) , rgb(235, 66, 66));
+  }
+  30%{
+    top: 700px;
+    left: 300px;
+    background: linear-gradient(110deg, rgb(240, 58, 58) , rgb(102, 184, 85));
+  }
+  30%{
+    top: 300px;
+    left: 1200px;
+    background: linear-gradient(110deg, rgb(104, 236, 86) , rgb(50, 255, 9));
+  }
+    40%{
+    top: 1100px;
+    left: 1200px;
+    background: linear-gradient(110deg, rgb(104, 236, 86) , rgb(50, 255, 9) , yellow);
+  }
+  50%{
+    top: 0px;
+    left: 1000px;
+    background: linear-gradient(110deg, rgb(104, 236, 86) , rgb(50, 255, 9) , yellow);
+  }
+    60%{
+    top: 0px;
+    left: 1000px;
+    background: linear-gradient(110deg, rgb(104, 236, 86) , red , rgb(50, 255, 9) , yellow);
+  }
+      70%{
+    top: 0px;
+    left: 1000px;
+    background: linear-gradient(110deg, rgb(65, 11, 189) , red , rgb(233, 220, 222) , rgb(10, 214, 153));
+  }
+}
+

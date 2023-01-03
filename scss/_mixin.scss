@@ -1,0 +1,86 @@
+.box1__cont {
+  width: 100%;
+  height: 110px;
+  margin-top: 2vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .box1__title {
+    font-size: 5rem;
+  }
+  .but__list1 {
+    padding: 15px 25px;
+    margin: 15px 40px;
+    font-size: 5rem;
+    font-weight: 700;
+    color: green;
+    outline: none;
+    background: none;
+    border: none;
+  }
+}
+.but__list2 {
+  padding: 15px 25px;
+  margin: 15px 40px;
+  font-size: 5rem;
+  font-weight: 700;
+  color: green;
+  outline: none;
+  background: none;
+  border: none;
+}
+/////////////////////////////////////////@at-root
+/////////////////////////////////////////@at-root
+/////////////////////////////////////////@at-root
+/////////////////////////////////////////@at-root
+/////////////////////////////////////////@at-root
+/////////////////////////////////////////@at-root
+
+.box2__cont {
+  margin: 180px auto;
+  width: 100%;
+  height: 400px;
+
+
+  .box1__title {
+    font-size: 5rem;
+    font-family: Arial;
+    font-weight: 600;
+  }
+  .none {
+    .a {
+      list-style-type: none;
+      font-size: 3rem;
+      font-weight: 500;
+      padding: 10px 30px;
+    }
+  }
+}
+.box3__cont{
+
+
+  .box3__title{
+    font-size: 5rem;
+     
+  }
+}
+
+.none__item{
+  list-style-type: none;
+  font-size: 3rem;
+  margin: 15px 30px ;
+}
+///////////////////////////////////////////////////////////@at-root
+
+.general__btn{
+  font-size: 4rem;
+  padding: 20px 30px;
+  font-family: monospace;
+  background-color: rgb(253, 114, 0);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 100px 100px;
+  cursor:cell;
+}

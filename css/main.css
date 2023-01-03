@@ -1,0 +1,544 @@
+.box1__cont {
+  width: 100%;
+  height: 110px;
+  margin-top: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box1__cont .box1__title {
+  font-size: 5rem;
+}
+.box1__cont .but__list1 {
+  padding: 15px 25px;
+  margin: 15px 40px;
+  font-size: 5rem;
+  font-weight: 700;
+  color: green;
+  outline: none;
+  background: none;
+  border: none;
+}
+
+.but__list2 {
+  padding: 15px 25px;
+  margin: 15px 40px;
+  font-size: 5rem;
+  font-weight: 700;
+  color: green;
+  outline: none;
+  background: none;
+  border: none;
+}
+
+.box2__cont {
+  margin: 180px auto;
+  width: 100%;
+  height: 400px;
+}
+.box2__cont .box1__title {
+  font-size: 5rem;
+  font-family: Arial;
+  font-weight: 600;
+}
+.box2__cont .none .a {
+  list-style-type: none;
+  font-size: 3rem;
+  font-weight: 500;
+  padding: 10px 30px;
+}
+
+.box3__cont .box3__title {
+  font-size: 5rem;
+}
+
+.none__item {
+  list-style-type: none;
+  font-size: 3rem;
+  margin: 15px 30px;
+}
+
+.general__btn {
+  font-size: 4rem;
+  padding: 20px 30px;
+  font-family: monospace;
+  background-color: rgb(253, 114, 0);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 100px 100px;
+  cursor: cell;
+}
+
+.card1__title {
+  font-size: 4rem;
+  font-weight: 600;
+  margin: 7px 30px;
+}
+
+.select {
+  padding: 10px 80px;
+  font-size: 4rem;
+  margin: 10px 30px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.select:hover {
+  outline: none;
+  border: 10px ridge green;
+}
+
+.hero__card2 {
+  margin-top: 35px;
+}
+.hero__card2 .block__box {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-around;
+}
+.hero__card2 .block__box .aaa {
+  width: 100px;
+  padding: 60px 30px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.block__box2 {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(185, 175, 175);
+}
+.block__box2 .left__box {
+  height: 100%;
+  width: 47%;
+}
+.block__box2 .left__box .sim1 {
+  width: 80%;
+  height: 100px;
+  margin: 15px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.block__box2 .left__box .sim1 input {
+  width: 50px;
+  height: 50px;
+  outline: none;
+  border: 2px solid red;
+}
+.block__box2 .left__box .sim1 .span {
+  font-size: 3rem;
+  color: black;
+  font-weight: 700;
+  padding: 30px 0;
+}
+.block__box2 .right__box {
+  height: 100%;
+  width: 47%;
+}
+.block__box2 .right__box .sim1 {
+  width: 80%;
+  height: 100px;
+  margin: 15px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.block__box2 .right__box .sim1 input {
+  width: 50px;
+  height: 50px;
+  outline: none;
+  border: 2px solid red;
+}
+.block__box2 .right__box .sim1 .span {
+  font-size: 3rem;
+  color: black;
+  font-weight: 700;
+  padding: 30px 0;
+}
+
+.asd {
+  font-weight: 700;
+  padding: 30px 0;
+  font-size: 2.3rem;
+  color: black;
+}
+
+.card1__title {
+  margin-top: 60px;
+}
+
+.card4__box {
+  height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: gray;
+}
+.card4__box .card4__inp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card4__box .card4__inp input {
+  width: 50px;
+  height: 50px;
+  margin: 0 20px;
+}
+.card4__box .card4__inp .hhuu {
+  font-size: 4rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+.h1__general {
+  font-size: 7rem;
+  font-family: monospace;
+  font-weight: 500;
+  text-align: center;
+  margin: 20px auto;
+  z-index: 2;
+}
+
+.container {
+  width: 2100px;
+  height: 1800px;
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transform: scaleX(-0.5);
+  transition: all ease 0.8s;
+  -webkit-animation-name: anim;
+          animation-name: anim;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: inherit;
+          animation-iteration-count: inherit;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  animation-direction: alternate-reverse;
+}
+.container .fatherblock__left {
+  width: 800px;
+  height: 100%;
+}
+.container .fatherblock__center {
+  width: 5px;
+  border-radius: 5px;
+  height: 100%;
+  border: 6px ridge black;
+}
+.container .fatherblock__right {
+  width: 800px;
+  height: 100%;
+}
+
+.container:hover {
+  transition: all ease 0.8s;
+  transform: scale(1);
+}
+
+.none1 {
+  display: none;
+}
+
+.loling {
+  list-style-type: none;
+  font-size: 3rem;
+  margin: 10px 30px;
+}
+
+.size {
+  list-style-type: none;
+  font-size: 3rem;
+  margin: 15px 30px;
+}
+
+.size1 {
+  list-style-type: none;
+  font-size: 3rem;
+  margin: 15px 30px;
+}
+
+.nonee {
+  display: none;
+}
+
+@-webkit-keyframes anim {
+  0% {
+    transform: rotate(1000deg);
+    background-color: chocolate;
+  }
+  50% {
+    transform: rotateX(1000deg);
+    background-color: red;
+  }
+  70% {
+    transform: rotateY(1000deg);
+    background-color: aqua;
+  }
+  70% {
+    transform: rotate(50rem);
+    background-color: rgb(112, 124, 124);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes anim {
+  0% {
+    transform: rotate(1000deg);
+    background-color: chocolate;
+  }
+  50% {
+    transform: rotateX(1000deg);
+    background-color: red;
+  }
+  70% {
+    transform: rotateY(1000deg);
+    background-color: aqua;
+  }
+  70% {
+    transform: rotate(50rem);
+    background-color: rgb(112, 124, 124);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.select {
+  -webkit-animation-name: anim2;
+          animation-name: anim2;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: var(".select");
+          animation-iteration-count: var(".select");
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+@-webkit-keyframes anim2 {
+  10% {
+    transform: rotate3d(100deg);
+  }
+  50% {
+    transform-origin: 10%;
+  }
+  90% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes anim2 {
+  10% {
+    transform: rotate3d(100deg);
+  }
+  50% {
+    transform-origin: 10%;
+  }
+  90% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.block__box__item1 {
+  -webkit-animation-name: activ;
+          animation-name: activ;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+}
+
+@-webkit-keyframes activ {
+  50% {
+    transform: translateY(100deg);
+  }
+  100% {
+    transform: translateY(100deg);
+  }
+}
+
+@keyframes activ {
+  50% {
+    transform: translateY(100deg);
+  }
+  100% {
+    transform: translateY(100deg);
+  }
+}
+.general__btn {
+  -webkit-animation-name: animate;
+          animation-name: animate;
+  -webkit-animation-delay: 10s;
+          animation-delay: 10s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes animate {
+  50% {
+    background: linear-gradient(110deg, rgb(88, 21, 21), rgb(53, 48, 48));
+  }
+  100% {
+    background: linear-gradient(110deg, rgb(3, 151, 23), rgb(100, 228, 95), red);
+  }
+}
+
+@keyframes animate {
+  50% {
+    background: linear-gradient(110deg, rgb(88, 21, 21), rgb(53, 48, 48));
+  }
+  100% {
+    background: linear-gradient(110deg, rgb(3, 151, 23), rgb(100, 228, 95), red);
+  }
+}
+.container {
+  background: none;
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+}
+
+.shaytoncha {
+  width: 400px;
+  height: 400px;
+  background-color: red;
+  position: absolute;
+  border-radius: 50%;
+  transition: all ease 0.8s;
+  -webkit-animation-name: xxx;
+          animation-name: xxx;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+  -webkit-animation-duration: 50s;
+          animation-duration: 50s;
+  left: 1500px;
+  top: 900px;
+}
+
+.shaytoncha:hover {
+  transform: scale(1.5);
+  transition: all ease 0.8s;
+}
+
+.shaytoncha:active {
+  transform: scale(2);
+  border-radius: 100%;
+  box-shadow: 10px 10px black;
+}
+
+@-webkit-keyframes xxx {
+  10% {
+    top: 300px;
+    left: 400px;
+    background: linear-gradient(110deg, red, rgb(235, 66, 66));
+  }
+  20% {
+    top: 1500px;
+    left: 600px;
+    background: linear-gradient(110deg, rgb(94, 26, 26), rgb(235, 66, 66));
+  }
+  30% {
+    top: 700px;
+    left: 300px;
+    background: linear-gradient(110deg, rgb(240, 58, 58), rgb(102, 184, 85));
+  }
+  30% {
+    top: 300px;
+    left: 1200px;
+    background: linear-gradient(110deg, rgb(104, 236, 86), rgb(50, 255, 9));
+  }
+  40% {
+    top: 1100px;
+    left: 1200px;
+    background: linear-gradient(110deg, rgb(104, 236, 86), rgb(50, 255, 9), yellow);
+  }
+  50% {
+    top: 0px;
+    left: 1000px;
+    background: linear-gradient(110deg, rgb(104, 236, 86), rgb(50, 255, 9), yellow);
+  }
+  60% {
+    top: 0px;
+    left: 1000px;
+    background: linear-gradient(110deg, rgb(104, 236, 86), red, rgb(50, 255, 9), yellow);
+  }
+  70% {
+    top: 0px;
+    left: 1000px;
+    background: linear-gradient(110deg, rgb(65, 11, 189), red, rgb(233, 220, 222), rgb(10, 214, 153));
+  }
+}
+
+@keyframes xxx {
+  10% {
+    top: 300px;
+    left: 400px;
+    background: linear-gradient(110deg, red, rgb(235, 66, 66));
+  }
+  20% {
+    top: 1500px;
+    left: 600px;
+    background: linear-gradient(110deg, rgb(94, 26, 26), rgb(235, 66, 66));
+  }
+  30% {
+    top: 700px;
+    left: 300px;
+    background: linear-gradient(110deg, rgb(240, 58, 58), rgb(102, 184, 85));
+  }
+  30% {
+    top: 300px;
+    left: 1200px;
+    background: linear-gradient(110deg, rgb(104, 236, 86), rgb(50, 255, 9));
+  }
+  40% {
+    top: 1100px;
+    left: 1200px;
+    background: linear-gradient(110deg, rgb(104, 236, 86), rgb(50, 255, 9), yellow);
+  }
+  50% {
+    top: 0px;
+    left: 1000px;
+    background: linear-gradient(110deg, rgb(104, 236, 86), rgb(50, 255, 9), yellow);
+  }
+  60% {
+    top: 0px;
+    left: 1000px;
+    background: linear-gradient(110deg, rgb(104, 236, 86), red, rgb(50, 255, 9), yellow);
+  }
+  70% {
+    top: 0px;
+    left: 1000px;
+    background: linear-gradient(110deg, rgb(65, 11, 189), red, rgb(233, 220, 222), rgb(10, 214, 153));
+  }
+}/*# sourceMappingURL=main.css.map */
